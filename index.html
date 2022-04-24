@@ -9,6 +9,13 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
@@ -22,6 +29,7 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#interests" class="nav__link">Interests</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
                 </ul>
@@ -31,22 +39,60 @@
         <!-- Introduction -->
         <section class="intro" id="home">
             <h1 class="section__title section__title--intro">
-                Hi, I'm <strong>Aidan Frederick</strong>
+                Hi, I'm<strong>Aidan Frederick</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">B.E.Sc. Software Engineering</p>
-            <img src="imgs/aidan-headshot.jpg" alt="Aidan's headshot">
+            <img src="imgs/aidan-headshot.jpg" alt="Aidan's headshot" class="intro__img">
+        </section>
+
+        <!-- Interests -->
+        <section class="my-interests" id="interests">
+            <h2 class="section__title section__title--interests">Main Interests</h2>
+            <div class="interests">
+                <div class="interest">
+                    <h3>Machine Learning</h3>
+                    <p>
+                        Using past habits to predict future behaviour is fascinating.
+                        The insights we can gain from machine learning models can help us understand more
+                        about ourselves and continually improve the world around us. 
+                    </p>
+                </div> <!-- / interest -->
+
+                <div class="interest">
+                    <h3>Web Development</h3>
+                    <p>
+                        The Internet has changed the world. I remember having dial-up, when my Mom would yell down
+                        to my sibilings and I to get off of the computer so she could talk on the phone. It's astounding
+                        how far we have progressed in a relatively short time. Looking back on how far we've come, only 
+                        shows how much further we can go, and helping to shape the future of our digital world is very exciting.
+                    </p>
+                </div> <!-- / interest -->
+
+                <div class="interest">
+                    <h3>Game Programming</h3>
+                    <p>
+                        Who doesn't like games? Everyone plays games in form or another. Be it on mobile, console, or PC, there
+                        is a game out there for most. They are fun to play, yes, but even more fun to make. The satisfaction of seeing
+                        a digital universe that you've created, in action, is a feeling like no other. 
+                    </p>
+                </div> <!-- / interest -->
+            </div>
         </section>
         
         <!-- About Me -->
         <section class="about-me" id="about">
-            <h2 class="section__title section__title--about">About Me</h2>
-            <p class="section__subtitle section__subtitle--about"></p>
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Est. 1999</p>
 
             <div class="about-me__body">
-                <p></p>
-                <p></p>
+                <p>
+                    Born and raised in St. Thomas, Ontario, I attended the nearby Western University, from which I am a new graduate.
+                    I earned my Bachelor of Engineering Science in Software Engineering in the spring of 2022 after 5 years of studies.
+                    During my time at Western, I was involved with student organizations such as, Phi Delta Theta Fraternity, the Western Climbing Club,
+                    and Get Real Western. Developing software of any kind is a always a challenge, but it's one that I am up for.
+                </p>
             </div>
-            <img src="img/" alt="Another picture">
+            <img src="imgs/aidan-candid.jpg" alt="A picture of Aidan smiling">
         </section>
 
         <!-- Projects -->
